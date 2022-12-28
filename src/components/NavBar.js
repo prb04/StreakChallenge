@@ -26,7 +26,7 @@ const navLinks = [
 
 const Navbar = () => {
   return (
-    <nav className="sm:flex hidden w-full bg-[#050129] flex py-5 px-5 justify-between items-center border-b-2 border-[#323232]">
+    <nav className="sm:flex hidden w-full bg-[#050129] py-5 px-10 justify-between items-center border-b-2 border-[#323232]">
       <img className="w-36 h-12" src={logo} alt="logo" />
       <ul className="list-none flex justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
